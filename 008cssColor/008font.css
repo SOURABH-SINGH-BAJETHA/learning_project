@@ -1,0 +1,29 @@
+.heading{
+    font-family:cursive;
+    font-size: 50px;
+    color: rgb(228, 177, 68);
+    background-color: beige;
+    
+}
+
+#first{
+
+    font-family: cursive;
+    font-weight: 100;
+    font-size: 20px;
+    color: rgb(52, 144, 113);
+    background-color: rgba(152, 212, 31, 0.201);
+
+
+
+}
+
+p{
+    font-family: cursive;
+    font-weight: 100;
+    font-size: 20px;
+    color: rgb(89, 225, 84);
+    background-color: rgba(139, 157, 222, 0.201);
+
+}
+

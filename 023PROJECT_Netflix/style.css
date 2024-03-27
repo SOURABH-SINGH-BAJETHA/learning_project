@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: rgb(35, 33, 33);
+}
+.front_page{
+    height: 700px;
+    background-image: url(netflix4.jpeg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right{
+    display: flex;
+    color: white;
+    gap: 10px;
+    margin-top: 35px;
+    margin-right: 190px;
+    gap: 20px;
+}
+
+.header .logo_netflix{
+    height: 130px;
+}
+
+.logo{
+    margin-left:150px ;
+    margin-top: -20px;
+}
+
+.bhasha{
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4px;
+    height: 23px;
+    width: 100px;
+    border-radius: 4px;
+}
+
+.Sign_in{
+    border: 1px solid none;
+    height: 23px;
+    width: 64px;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: rgb(228, 18, 18);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#brand{
+    font-size: 20px;
+}
+
+.main{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 80%;
+    gap:20px;
+    
+}
+.main h2{
+    
+    font-size: 52px;
+    text-align: center;
+
+}
+
+.main p{
+    font-size: 25px;
+    font-weight:bolder;
+}
+
+.email{
+    display: flex;
+    align-self: center;
+    color: rgb(255, 255, 255);
+    gap: 10px
+    
+}
+.address{
+    background-color:transparent;
+    font-size: larger;
+    border: none;
+    color: rgb(199, 191, 191);
+    height: 50px;
+    width: 400px;
+    border-radius: 4px;
+    border: 1px solid silver;
+}
+
+.email a{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    background-color: rgb(220, 27, 27);
+    width: 160px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+   
+}
+
+a{
+    text-decoration: none;
+    
+}
+.foot{
+    height: 120px;
+}
+
+
+.second_page{
+    height: 480px;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third_page{
+    height: 480px;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.forth_page{
+    height: 480px;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.enjoy{
+   color: white;
+   width: 600px;
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+}
+
+.enjoy h1{
+    font-size: 50px;
+}
+.enjoy p{
+    font-size: 24px;
+}
+
+.tv_image img{
+    height: 450px;
+}
+
+
+.faq{
+    height: 100vh;
+    background-color: black;
+    margin-bottom: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 35px;
+
+}
+
+.faq h2{
+    margin-top: 50px;
+
+}
+.question{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faq details{
+    height: 50px;
+    background-color: rgba(118, 106, 106, 0.356);
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+
+}
+
+
+details:hover{
+    height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

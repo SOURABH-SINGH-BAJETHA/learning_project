@@ -1,0 +1,50 @@
+h1{
+    color: rgb(235, 73, 73);
+    background-color: rgb(238, 204, 204);
+
+    /* border: solid 5px red ; */
+    border-bottom: solid;
+    border-left: solid;
+    border-width: 10px;
+    border-color: red;
+
+
+
+}
+
+.first{
+
+    
+    border: solid red 5px ;
+    background-color: rgba(188, 138, 20, 0.301);
+    padding: 5px;
+    border-radius: 10px;
+    color: rgb(223, 121, 25);
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 200;
+    margin-bottom: 5px;
+
+}
+
+.second{
+
+    margin-top: 5px;
+    border: solid brown 3px;
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(107, 14, 194);
+    background-color: rgba(210, 222, 222, 0.923);
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 200;
+}
+
+.third{
+    color: rgb(221, 21, 61);
+    background-color: rgba(174, 218, 218, 0.923);
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 200;
+    
+}

@@ -1,0 +1,60 @@
+.container{
+    border: solid brown 2px;
+    height: 1000px;
+    width: 1500px;
+    display: flex;
+    
+    justify-content: end;
+   
+    /* flex-direction: row-reverse;
+    justify-content: left; */
+
+    /* justify-content: center; */
+    /* justify-content:space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    /* align-items: end; */
+    /* align-items:center; */
+
+    /* align-items: end; */
+    
+    
+
+
+}
+
+.box{
+
+    border: solid brown 2px;
+    height: 200px;
+    width:  200px;
+
+    margin: 5px;
+    padding: 2px;
+
+}
+
+#box1{
+    background-color: aqua;
+    /* align-items: end; */
+    
+    align-content: space-around;
+    font-family: cursive;
+    color: white;
+    
+    
+}
+
+#box2{
+    background-color: gold;
+    
+}
+
+#box3{
+    background-color: brown;
+}
+
+#box4{
+    background-color: forestgreen;
+}

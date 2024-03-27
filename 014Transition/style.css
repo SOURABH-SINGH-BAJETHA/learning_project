@@ -1,0 +1,23 @@
+.container{
+
+    height: 200px;
+    width: 200px;
+    border: solid 4px brown;
+    //border-radius: 50%;
+    background-color: beige;
+
+    transition-property: all;
+    transition-duration: 4s;
+    transition-delay: 12ms;
+    transition-timing-function: linear;
+
+
+
+}
+
+.container:hover{
+
+    width: 400px;
+    background-color: aquamarine;
+    
+}

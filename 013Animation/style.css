@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+
+    border : solid 10px rgb(9, 39, 29);
+    background: #d3a50e;
+    box-sizing: border-box;
+    
+
+}
+
+#box{
+    height: 70px;
+    width: 300px;
+
+    margin:10px;
+
+    background: #4a28bb;
+    border: solid 5px brown;
+    border-radius: 10px;
+    
+    position: relative;
+    animation-name: rightMovement;
+    animation-duration: 7s;
+    animation-delay: none;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    
+}
+
+#circle{
+
+    height: 70px;
+    width: 70px;
+
+    margin:10px;
+
+    background: #4a28bb;
+    border: solid 5px brown;
+    border-radius:100%;
+    
+    position: relative;
+    animation-name: circleMovement;
+    animation-duration: 5s;
+    animation-delay: none;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction:alternate;
+
+    animation: circleMovement 5s linear none infinite alternate ;
+
+}
+
+@keyframes rightMovement{
+    from{
+        top:0;
+        left:0;
+    }
+
+    to{
+        top: 0;
+        left:1200px;
+    }
+
+
+}
+
+@keyframes circleMovement {
+
+    0%{
+        top:0%;
+        left:0%;
+    }
+
+    25%{
+        top:0%;
+        left:50%;
+    }
+
+    50%{
+        top:50%;
+        left:0%;
+    }
+
+    75%{
+        top:67%;
+        left:50%;
+    }
+
+    100%{
+        top:15%;
+        left:70%
+    }
+
+
+    
+}
